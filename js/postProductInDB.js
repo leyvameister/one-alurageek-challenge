@@ -1,6 +1,6 @@
 export async function postProduct(productName, productPrice, productImageUrl) {
     try {
-        await fetch("http://localhost:3000/products", {
+        await fetch("https://one-alurageek-json-server.vercel.app/products", {
             method: "POST",
             headers: {
                 "Content-type": "application/json"

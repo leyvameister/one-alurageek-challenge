@@ -2,7 +2,7 @@ export async function deleteProduct(productCard) {
     const productId = productCard.getAttribute("data-product-id");
 
     try {
-        const response = await fetch(`http://localhost:3000/products/${productId}`, {
+        const response = await fetch(`https://one-alurageek-json-server.vercel.app/products/${productId}`, {
             method: 'DELETE'
         });
 
