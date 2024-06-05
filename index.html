@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClownToys</title>
+    <link rel="icon" href="/img/poker.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>ClownToys</h1>
+    </header>
+    <main>
+        <section class="addproduct">
+            <h2 class="addproduct__title">Agregar Producto:</h2>
+            <form class="addproduct__form" data-form>
+                <input class="addproduct__input" type="text" name="name" placeholder="Nombre..." required
+                    data-product-name>
+                    <span class="invalid_input_message"></span>
+                <input class="addproduct__input" type="text" name="price" placeholder="Precio..." required
+                    data-product-price>
+                    <span class="invalid_input_message"></span>
+                <input class="addproduct__input" type="text" name="image" placeholder="URL de imagen..." required
+                    data-product-url>
+                    <span class="invalid_input_message"></span>
+                <button class="addproduct__button" type="submit">Enviar</button>
+                <button class="addproduct__button" type="reset">Limpiar</button>
+            </form>
+        </section>
+
+        <section class="products">
+            <h2 class="products__title">Mis Productos:</h2>
+            <div class="products__list" data-products-list></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Eduardo Leyva</p>
+        <p>Alura LATAM - 2024</p>
+    </footer>
+
+    <script src="/js/main.js" type="module"></script>
+</body>
+
+</html>

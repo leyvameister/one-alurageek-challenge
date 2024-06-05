@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "836f",
+      "name": "Goku",
+      "price": "50",
+      "image": "https://img.icons8.com/?size=512&id=sFgNGiaXyxQf&format=png"
+    },
+    {
+      "id": "3d25",
+      "name": "Iron Man",
+      "price": "25",
+      "image": "https://img.icons8.com/?size=512&id=1pe71OL3ROEg&format=png"
+    },
+    {
+      "id": "7690",
+      "name": "Pokeball",
+      "price": "100",
+      "image": "https://img.icons8.com/?size=512&id=46746&format=png"
+    }
+  ]
+}
