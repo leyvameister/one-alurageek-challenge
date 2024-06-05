@@ -23,6 +23,7 @@ function registerEventListeners() {
     deleteButtons.forEach(deleteButton => {
         deleteButton.addEventListener("click", async (event) => {
             try {
+                event.preventDefault();
                 const productCard = event.target.closest("[data-product-card]");
                 await deleteProduct(productCard);
             } catch (error) {
