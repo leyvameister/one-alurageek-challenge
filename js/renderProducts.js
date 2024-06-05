@@ -19,7 +19,7 @@ export async function renderProducts() {
 }
 
 function registerEventListeners() {
-    const deleteButtons = document.querySelectorAll("[data-product-card]");
+    const deleteButtons = document.querySelectorAll("[data-delete-button]");
     deleteButtons.forEach(deleteButton => {
         deleteButton.addEventListener("click", async (event) => {
             try {
